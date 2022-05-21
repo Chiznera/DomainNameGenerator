@@ -12,8 +12,8 @@ window.onload = function() {
     let noun = ["jogger", "racoon"];
     for (let i = 0; i < pronoun.length; i++) {
       for (let f = 0; f < adj.length; f++) {
-        for (let g = 0; g < noun.length; i++) {
-          console.log(pronoun[i] + adj[f] + noun[g]);
+        for (let g = 0; g < noun.length; g++) {
+          console.log(pronoun[i] + adj[f] + noun[g] + ".com");
         }
       }
     }
